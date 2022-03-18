@@ -6,12 +6,15 @@
           <div class="progress">
            <div class="indeterminate"></div>
            </div>
-          <img src="https://c.tenor.com/OMDSFr1PLZcAAAAd/dogix-cheems.gif" style="width:570px;height:200px;"><br>
+          <img src="https://c.tenor.com/h8k8LRtm83gAAAAi/party-kirby.gif" 
+          style="width:570px;height:200px;"><br>
           <div class="progress">
           <div class="indeterminate"></div>
           </div>
-            <label for="txtusuarioR">Usuario</label>
-            <input id="txtusuarioR" type="text" placeholder="Ingrese su usuario" size="15"/>
+            <label for="txtusuarioR">nombre</label>
+            <input id="txtnameR" type="text" placeholder="Ingrese su usuario" size="15"/>
+            <label for="txtusuarioR">email</label>
+            <input id="txtusuarioR" type="text" placeholder="Ingrese su email" size="15"/>
             <label for="txtpasswordR">Contraseña</label>
             <input id="txtpasswordR" type="text" placeholder="Minimo 8 caracteres" size="15"/>
             <button id="registro" class="btn waves-effect waves-light" type="submit" name="action">Registrar

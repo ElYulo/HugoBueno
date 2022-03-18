@@ -1,3 +1,5 @@
+var APISchema = new APISchema();
+
 //para acceder al id del componente
 $("#login").click(function(){
     login();
@@ -6,6 +8,7 @@ $("#login").click(function(){
 function login(){
     var email =  $("#txtusuario").val();
     var password = $("#txtpassword").val();
+  
 
     if(email === "" || password === ""){
         M.toast({html: 'No se permiten campos vacios'});
@@ -15,6 +18,27 @@ function login(){
           // Signed in
           var user = userCredential.user;
           // ...
+          /*
+          fetch(APISchema.users, {
+            method: 'POST',
+            body: JSON.stringify({
+              US_name: name,
+              US_email: email,
+              UID: uid
+            }),
+
+            headers:{
+              "Content-type":"application/json"
+            }
+
+          }).then(response => responde.json())
+          .then(data =>{
+
+          })
+          .catch(err => {
+
+          });
+*/
           M.toast({html: 'Login Exitoso! :D'});
           window.location = "?view=home";
         })

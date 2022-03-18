@@ -54,6 +54,7 @@ class Head {
     <script src="' . $this->root . '/classes/FirebaseSchema.js"></script>
     <script src="' . $this->root . '/res/assets/canvasjs.min.js"></script>
     <script src="' . $this->root . '/res/assets/jquery.canvasjs.min.js"></script>
+    <script src="' . $this->root . '/classes/APISchema.js"></script> 
 
 
     </head>
