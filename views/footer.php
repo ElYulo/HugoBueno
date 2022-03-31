@@ -16,7 +16,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © Si funciona Yul la codifico y si no funciona Yul NO la codifico
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>

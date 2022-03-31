@@ -1,4 +1,4 @@
-var APISchema = new APISchema();
+var API = new APISchema();
 
 //para acceder al id del componente
 $("#login").click(function(){
@@ -18,27 +18,6 @@ function login(){
           // Signed in
           var user = userCredential.user;
           // ...
-          /*
-          fetch(APISchema.users, {
-            method: 'POST',
-            body: JSON.stringify({
-              US_name: name,
-              US_email: email,
-              UID: uid
-            }),
-
-            headers:{
-              "Content-type":"application/json"
-            }
-
-          }).then(response => responde.json())
-          .then(data =>{
-
-          })
-          .catch(err => {
-
-          });
-*/
           M.toast({html: 'Login Exitoso! :D'});
           window.location = "?view=home";
         })
